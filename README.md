@@ -76,7 +76,7 @@ car-rental/
 │   └── thankyou.html
 ├── README.md
 ├── requirements.txt
-
+```
 
 ## 📸 Screenshots
 
