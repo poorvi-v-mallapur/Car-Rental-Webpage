@@ -23,13 +23,16 @@ A responsive web application built using Flask, HTML, and CSS to showcase a flee
    ```bash
    git clone https://github.com/yourusername/car-rental.git
    cd car-rental
+   ```
 2. Create a virtual environment and activate it:
     ```bash
     python -m venv venv
     venv\Scripts\activate  # Windows
+    ```
 3. Install dependencies:
     ```bash
     pip install -r requirements.txt
+    ```
 4. Set up MySQL database:
     Create a database named car_rental
     Run the following SQL:
@@ -41,13 +44,16 @@ A responsive web application built using Flask, HTML, and CSS to showcase a flee
         message TEXT,
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     );
+    ```
 5. Run the app:
     ```bash
     python app.py
+    ```
 6. Visit:
     ```cpp
     http://127.0.0.1:5000/
-    
+    ```
+
 ## 📂 Folder Structure 
 ```arduino
 car-rental/
@@ -55,16 +61,22 @@ car-rental/
 ├── app.py
 ├── db/
 │   └── connect.py
-├── templates/
-│   ├── index.html
-│   └── thankyou.html
+├── screenshots/
+│   ├── home.png
+│   ├── details.png
+│   ├── thankyou.png
+│   └── mysql.png
 ├── static/
 │   ├── style.css
 │   └── vehicles/
 │       ├── car1.jpg
 │       ├── ...
+├── templates/
+│   ├── index.html
+│   └── thankyou.html
 ├── README.md
 ├── requirements.txt
+
 
 ## 📸 Screenshots
 
