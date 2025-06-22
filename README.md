@@ -12,7 +12,7 @@ A responsive web application built using Flask, HTML, and CSS to showcase a flee
 ## 📌 Features
 
 - Owner profile and welcome message
-- Responsive vehicle gallery (9 vehicles, 3x3 grid)
+- Responsive vehicle gallery 
 - Contact form to collect user inquiries
 - MySQL backend to store messages
 - Thank-you page on successful submission
