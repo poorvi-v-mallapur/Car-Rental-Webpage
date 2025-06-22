@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saiveer Car Rentals</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <h1>Saiveer Car Rentals</h1>
+        <img src="/static/owner.jpg" alt="Owner Photo" class="owner-img">
+        <p>Hello! Welcome to our premium car rental service. We’re here to help you ride with comfort and ease.</p>
+    </header>
+
+    <!-- Vehicles Section -->
+    <section class="vehicles">
+        <h2>Available Vehicles</h2>
+        <div class="vehicle-grid">
+            <!-- 8 vehicles -->
+            {% for i in range(0, 8) %}
+            <div class="vehicle-card">
+                <img src="/static/vehicles/car{{ i+1 }}.jpg" alt="{{ car_names[i] }}">
+                <h3>{{ car_names[i] }}</h3>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <!-- Details Section -->
+    <section class="details">
+        <h2>Details</h2>
+        <p><strong>Service Area:</strong> Koppal, Karnataka</p>
+        <p><strong>Working Hours:</strong> 24 x 7</p>
+        <p><strong>Fleet:</strong> From compact budget cars to luxury SUVs</p>
+        <p><strong>Contact:</strong> +91-XXXXXXXXXX </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form action="/contact" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required><br>
+            <input type="email" name="email" placeholder="Your Email" required><br>
+            <textarea name="message" placeholder="Your Message" rows="4" required></textarea><br>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+</body>
+</html>
