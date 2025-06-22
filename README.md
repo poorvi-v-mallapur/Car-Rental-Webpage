@@ -65,3 +65,17 @@ car-rental/
 │       ├── ...
 ├── README.md
 ├── requirements.txt
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](screenshots/home.png)
+
+### 📨 Contact Form
+![Contact Form](screenshots/details.png)
+
+### 🙏 Thank You Page  
+![Thank You Page](screenshots/thankyou.png)
+
+### 🗃️ Contact Details Stored in MySQL  
+![MySQL Contact Storage](screenshots/mysql.png)
